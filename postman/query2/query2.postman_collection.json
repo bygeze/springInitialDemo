@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "949352f1-f3de-443a-870c-41fd5cbfdbfe",
+		"name": "query2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "{{ip}}:{{port}}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{ip}}:{{port}}",
+					"host": [
+						"{{ip}}"
+					],
+					"port": "{{port}}"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{ip}}:{{port}}/Gustavo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{ip}}:{{port}}/Gustavo",
+					"host": [
+						"{{ip}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"Gustavo"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
